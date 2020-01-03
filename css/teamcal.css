@@ -1,0 +1,124 @@
+/* ===========================================================================
+   TEAMCAL.CSS
+   
+   (c) 2004-2009 by George Lewe
+   ===========================================================================
+*/
+
+body { background-color: #FFFFFF; color: #555555; font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; }
+
+p,a,ul,td { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; text-align: left; text-decoration: none; }
+
+table.header       { background-color: #999999; border: 1px #333333 solid; border-collapse: collapse; margin: 0px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; width: 100%; }
+td.header-left     { background-color: #FFFFFF; background-image: url(../img/logo_bg.gif); padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; width: 110px; }
+td.header-right    { background-color: #FFFFFF; background-image: url(../img/logo_bg.gif); padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; width: 100%; }
+td.header-subtitle { background-color: #003399; color: #EEEEEE; font-size: 12px; height: 24px; padding-left: 14px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; text-align: left; vertical-align: middle; }
+
+table.menubar     { background-color: #EEEEEE; border-left: 1px solid #000000; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; color: #000000; height: 24px; width: 100%; }
+td.menubar-left   { padding-left: 2px; padding-right: 2px; padding-bottom: 0px; padding-top: 2px; text-align: left; vertical-align: middle; }
+td.menubar-right  { font-size: 12px; padding-left: 2px; padding-right: 2px; padding-bottom: 0px; padding-top: 2px; text-align: right; vertical-align: middle; }
+
+table.menu   { border-left: 0px solid #000000; border-top: 0px solid #000000; border-right: 0px solid #000000; border-bottom: 0px solid #000000; padding-left: 1px; padding-right: 1px; padding-bottom: 1px; padding-top: 1px; }
+td.menu      { background-color: #EEEEEE; border: 1px solid #BBBBBB; color: #000000; padding-left: 1px; padding-right: 1px; padding-bottom: 1px; padding-top: 1px; text-align: center; vertical-align: middle; width: 50px; }
+td.menuover  { background-color: #FFEBCD; border-left: 1px solid #FFB300; border-top: 1px solid #FFB300; border-right: 1px solid #FFB300; border-bottom: 1px solid #FFB300; color: #000000; padding-left: 1px; padding-right: 1px; padding-bottom: 1px; padding-top: 1px; text-align: center; vertical-align: middle; width: 50px; }
+a.menu       { color: #000000; font-size: 12px; text-decoration: none;}
+a.menu:hover { color: #000000; font-size: 12px; text-decoration: underline;}
+
+table.month      { border: 0px #333333 solid; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; }
+td.month         { background-color: #FFB300; border-top: 1px solid #000000; border-right: 0px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; color: #FFFFFF; font-size: 12px; font-weight: bold; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; width: 130px; }
+td.month-button  { background-color: #FFB300; border-top: 1px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: #FFFFFF; font-size: 12px; font-weight: bold; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; }
+
+td.title        { background-color: #E5E5E5; border-top: 0px solid #000000; border-right: 0px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; color: Black; font-weight: bold; font-size: 12px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; }
+td.title-button { background-color: #E5E5E5; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-weight: bold; font-size: 12px; padding-right: 4px; text-align: right; }
+td.name         { border-top: 0px solid #000000; border-right: 0px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; color: Black; font-size: 12px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; }
+td.name-button  { border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; padding-right: 4px; text-align: right; }
+
+td.daynum-left    { background-color: #A5A5A5; border-top: 1px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; text-align: center; width: 20px; }
+td.daynum         { background-color: #A5A5A5; border-top: 1px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; text-align: center; width: 20px; }
+td.daynum-weekend { background-color: #FFFACD; border-top: 1px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; text-align: center; width: 20px; }
+td.daynum-bank    { background-color: #D1FFCC; border-top: 1px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; text-align: center; width: 20px; }
+td.daynum-school  { background-color: #F0FFF0; border-top: 1px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; text-align: center; width: 20px; }
+
+td.weekday         { background-color: #E5E5E5; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; text-align: center; }
+td.weekday-weekend { background-color: #FFFACD; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; text-align: center; }
+td.weekday-bank    { background-color: #D1FFCC; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; text-align: center; }
+td.weekday-school  { background-color: #F0FFF0; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; text-align: center; }
+
+td.day         { border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; text-align: center; }
+td.day-weekend { background-color: #FFFACD; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; text-align: center; }
+td.day-bank    { background-color: #D1FFCC; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; text-align: center; }
+td.day-school  { background-color: #F0FFF0; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; text-align: center; }
+
+td.legend      { border-top: 0px solid #000000; border-right: 0px solid #000000; border-bottom: 0px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; height: 20px; text-align: left; }
+
+td.day-off   { background-color: #32CD32; color: Black; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; font-size: 12px; text-align: center; }
+td.day-duty  { background-color: #FFB300; color: Black; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; font-size: 12px; text-align: center; }
+td.day-home  { background-color: #ADD8E6; color: Black; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; font-size: 12px; text-align: center; }
+td.day-not   { background-color: #C0C0C0; color: Black; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; font-size: 12px; text-align: center; }
+td.day-sick  { background-color: #FFB6C1; color: Black; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; font-size: 12px; text-align: center; }
+td.day-train { background-color: #6495ED; color: Black; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; font-size: 12px; text-align: center; }
+td.day-vac   { background-color: #EE4444; color: Black; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; font-size: 12px; text-align: center; }
+td.day-block { background-color: #FFFFFF; color: #0000CD; border-top: 0px solid #000000; border-right: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 0px solid #000000; font-size: 12px; font-weight: bold; text-align: center; }
+
+table.edit       { background-color: #FFFFFF; border: 1px #333333 solid; border-spacing: 0; width: 100%; }
+table.edit-table { background-color: #FFFFFF; border: 0px #333333 solid; border-spacing: 0; width: 100%; }
+td.edit-header   { background-color: #FFB300; border-top: 0px solid #000000; border-right: 0px solid #000000; border-bottom: 1px solid #BBBBBB; border-left: 0px solid #000000; color: #FFFFFF; font-size: 14px; font-weight: bold; height: 20px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; }
+td.edit-menu     { background-color: #CCCCCC; color: #000000; font-size: 12px; font-weight: normal; height: 20px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; }
+td.edit-caption  { background-color: #000099; color: #FFFFFF; font-size: 12px; font-weight: bold; height: 20px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; }
+td.edit-body     { background-color: #FFFFFF; color: #333333; font-size: 12px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; vertical-align: top; }
+td.bottom-menu   { background-color: #EEEEEE; border-top: 1px solid #BBBBBB; border-right: 0px solid #000000; border-bottom: 0px solid #000000; border-left: 0px solid #000000; color: #000000; font-size: 12px; font-weight: normal; height: 20px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; text-align: right; }
+
+table.dlg      { background-color: #FFFFFF; border: 1px #333333 solid; border-spacing: 0; width: 100%; }
+td.dlg-header  { background-color: #FFB300; border-top: 0px solid #000000; border-right: 0px solid #000000; border-bottom: 1px solid #BBBBBB; border-left: 0px solid #000000; color: #FFFFFF; font-size: 12px; font-weight: bold; height: 20px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; }
+td.dlg-menu    { background-color: #CCCCCC; color: #000000; font-size: 12px; font-weight: normal; height: 20px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; }
+td.dlg-caption { background-color: #000099; color: #FFFFFF; font-size: 12px; font-weight: bold; height: 20px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; }
+td.dlg-body    { background-color: #FFFFFF; color: #333333; font-size: 12px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; vertical-align: top; }
+td.dlg-botmenu { background-color: #EEEEEE; border-top: 1px solid #BBBBBB; border-right: 0px solid #000000; border-bottom: 0px solid #000000; border-left: 0px solid #000000; color: #000000; font-size: 12px; font-weight: normal; height: 20px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; text-align: right; }
+
+table.dlg-frame    { border: 0px #333333 solid; border-collapse: collapse; margin: 0px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; }
+
+td.dlg-frame-ul1   { width: 9px; height: 9px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-ul2   { width: 9px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-title { width: 9px; color: #666666; font-size: 12px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; vertical-align: middle; }
+td.dlg-frame-uhu   { padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-ur1   { width: 9px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-ur2   { width: 9px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+
+td.dlg-frame-ul3   { height: 9px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-ul4   { border-top: 1px solid #999999; border-left: 1px solid #999999; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-uhl   { border-top: 1px solid #999999; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-ur3   { border-top: 1px solid #999999; border-right: 1px solid #999999; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-ur4   { padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+
+td.dlg-frame-l1    { padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-l2    { border-left: 1px solid #999999; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-body  { color: #000000; font-size: 12px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-r1    { border-right: 1px solid #999999; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-r2    { padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+
+td.dlg-frame-ll1   { height: 9px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-ll2   { border-bottom: 1px solid #999999; border-left: 1px solid #999999; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-lhu   { border-bottom: 1px solid #999999; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-lr1   { border-right: 1px solid #999999; border-bottom: 1px solid #999999; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-lr2   { padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+
+td.dlg-frame-ll3   { height: 9px; padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-ll4   { padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-lhl   { padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-lr3   { padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+td.dlg-frame-lr4   { padding-left: 0px; padding-right: 0px; padding-bottom: 0px; padding-top: 0px; }
+
+table.dlgframe   { border: 0px #333333 solid; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; }
+td.dlgframe      { border-top: 0px solid #000000; border-right: 0px solid #000000; border-bottom: 0px solid #000000; border-left: 0px solid #000000; color: Black; font-size: 12px; padding-left: 4px; padding-right: 4px; padding-bottom: 4px; padding-top: 4px; }
+
+input.button       { background-color: #EEEEEE; border: 1px solid #BBBBBB; font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; }
+input.button-over  { background-color: #FFEBCD; border: 1px solid #FFB300; font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; text-decoration: underline; }
+input.text         { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; }
+textarea.text      { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; text-align: left; }
+
+select.select { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; }
+option.option { font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 12px; }
+
+.copyright	{ font-family: Arial, Helvetica, Verdana, sans-serif; color: #999999; font-size: 10px; }
+a.copyright			{ color: #999999; text-decoration: none;}
+a.copyright:hover 	{ color: #999999; text-decoration: underline;}

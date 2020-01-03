@@ -1,0 +1,45 @@
+==============================================================================
+TEAMCAL RELEASE INFO
+==============================================================================
+
+------------------------------------------------------------------------------
+[1.6.006]
+
+DATE
+17.OCT.2009
+
+CHANGES
+01 Only alphanumeric chars allowed in user names
+   Non-alphanumeric user names were leading to irregular results on non-english
+   servers using differnet char coding. To avoid this, only alphanumeric chars
+   are allowed in team member names.
+
+   
+------------------------------------------------------------------------------
+[1.6.005]
+
+DATE
+29.JUN.2009
+
+CHANGES
+01 HTML and CSS Compatibility
+   Based on the much appreciated work of Thomas Suess I revisted the HTML and
+   CSS code and implemented compatibility to HTML 4.01 Transitional and CSS 2.1.
+   Note that the different browsers still render the pages individually, thus,
+   the display experience may change based on the browser you use. I recommend
+   Firefox as the most compatible reference broswer.
+   
+02 Popup Window Size
+   With the years, browser versions and screen resolutions got changed a lot.
+   Thomas (see above) suggested to adjust the window sizes so that scrolling
+   is reduced to a minimum.
+
+03 License
+   Added the TeamCal license texts to the Doc folder.
+   
+04 CSS
+   Streamlined the cascading style sheet, e.g. changed all font size values from
+   pt to px due to the broader compatibility with browser rendering.
+
+05 Application Subtitle
+   The application subtitle can now be set in the config file.
