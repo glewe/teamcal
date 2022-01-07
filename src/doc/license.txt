@@ -1,0 +1,37 @@
+==============================================================================
+TEAMCAL LICENSE
+==============================================================================
+
+TeamCal is free software licensed under the GNU General Public 
+License (GPL). You can find the GPL license conditions in 'gpl.txt'.
+
+Even though (and especially because of) an author of free software is 
+not payed for his work I consider it as important to reference to the
+original author's work appropriately. It is not only a matter of good 
+manners, decency and code of honor. 
+
+Therefore, in addition to the GPL license you agree to the following 
+conditions if you decide to use or modify or distribute TeamCal:
+
+(1) You may NOT alter or disable comments, references, statements and
+    displays of the:
+    - Application information (name, version) (exception see (2))
+    - Author's information (name, URL, e-mail)
+    - Author's Copyright
+    - "Powered by" information (must always be displayed on each page)
+    
+(2) You may alter 'header.application.inc.php' to your liking, e.g. use
+    your own image and/or subtitle.
+    If you develop identifyable sections of code that are not derived 
+    from the original Application and can be reasonably considered 
+    independent and separate works in themselves, like an integration 
+    module for a CMS, you may identify your new sections by
+    appropriate references to you as the modifying author.
+    In such a case you may also alter the version number of the 
+    Application based on the original version number in order to reflect
+    the independent additions to the Application (e.g. 2.2 => 2.2m).
+    
+George Lewe (george@lewe.com)
+
+==============================================================================
+
